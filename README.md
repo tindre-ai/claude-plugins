@@ -48,7 +48,7 @@ Optional line for **Organization settings → Organization and access → Organi
 
 In **Cowork and Claude Code**, the plugin's hook sends each message of four words or more (up to
 4,000 characters) to Tindre's API at `api.tindre.app`, signed in as you, to find the Standards and
-Library content that match it. Shorter messages and commands are not looked up. Tindre keeps the
+Library content that match it. Shorter messages, commands, and messages over 4,000 characters get no lookup. Tindre keeps the
 first 500 characters of each message it looks up in its question log, for as long as that log keeps
 questions. That text is never shown to anyone, not to administrators, colleagues or AI tools, and
 it is not yet used for anything else. The hook only
