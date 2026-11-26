@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tindre": {
+      "type": "http",
+      "url": "https://api.tindre.app/mcp"
+    }
+  }
+}

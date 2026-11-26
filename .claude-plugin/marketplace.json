@@ -1,0 +1,13 @@
+{
+  "name": "tindre",
+  "description": "Tindre's plugin for Claude: your organization's Standards and Library, checked quietly while you work.",
+  "owner": { "name": "Tindre AS", "url": "https://tindre.app" },
+  "plugins": [
+    {
+      "name": "tindre",
+      "source": "./plugins/tindre",
+      "description": "Claude follows your organization's Standards and uses its Library from Tindre when the work calls for it, and stays quiet when it does not.",
+      "category": "productivity"
+    }
+  ]
+}

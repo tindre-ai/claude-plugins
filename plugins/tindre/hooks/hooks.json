@@ -1,0 +1,18 @@
+{
+  "description": "Before Claude answers a message, asks Tindre quietly whether the organization's Standards or Library bear on it. Adds a short note for Claude only when something clears Tindre's relevance floor; otherwise adds nothing. Read-only, fails open after five seconds.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "mcp_tool",
+            "server": "plugin:tindre:tindre",
+            "tool": "prompt_context",
+            "input": { "prompt": "${prompt}" },
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

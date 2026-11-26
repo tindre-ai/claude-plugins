@@ -1,0 +1,19 @@
+{
+  "name": "tindre",
+  "displayName": "Tindre",
+  "version": "0.1.0",
+  "description": "Claude follows your organization's Standards and uses its Library from Tindre when the work calls for it, and stays quiet when it does not.",
+  "author": {
+    "name": "Tindre AS",
+    "url": "https://tindre.app"
+  },
+  "homepage": "https://tindre.app",
+  "keywords": [
+    "standards",
+    "knowledge",
+    "governance",
+    "tindre"
+  ],
+  "repository": "https://github.com/tindre-ai/claude-plugins",
+  "license": "MIT"
+}
