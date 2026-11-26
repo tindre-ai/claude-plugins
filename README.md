@@ -26,14 +26,17 @@ and names it. When nothing does, Claude says nothing about Tindre.
 
 Then sign in to Tindre under `/mcp`.
 
-**Claude app (chat and Cowork)**
+**Claude app, for an organization** (Team and Enterprise; an Owner, with Cowork and Skills on)
 
-- **Admins** (Team and Enterprise): add this repository as a marketplace, or upload the
-  `plugins/tindre` folder as a zip, under **Customize → Plugins → Add**, and make the plugin
-  available, installed by default or required for your people. Add Tindre under **Organization
-  settings → Connectors** if it is not there already.
-- **Members**: install it from **Customize → Plugins**, then connect Tindre from the plugin's
-  **Connectors** tab.
+1. Download [`tindre.zip`](https://github.com/tindre-ai/claude-plugins/releases/latest/download/tindre.zip).
+2. **Organization settings → Plugins & skills → Add → Upload a plugin**, and upload the zip.
+3. In the **Inventory** tab, open the plugin's menu → **Default access**, and choose **Required** or
+   **Installed by default**.
+4. Add Tindre under the organization's **Connectors** (`https://api.tindre.app/mcp`), if it is not
+   there already. Each person then connects with their own Tindre account.
+
+**Claude app, just for you**: **Customize → Plugins → Add**, and upload the zip or add this
+repository's URL as a marketplace.
 
 Optional line for **Organization settings → Organization and access → Organization instructions**:
 
