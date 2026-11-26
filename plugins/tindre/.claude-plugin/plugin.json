@@ -1,17 +1,18 @@
 {
   "name": "tindre",
   "displayName": "Tindre",
-  "version": "0.1.0",
-  "description": "Claude follows your organization's Standards and uses its Library from Tindre when the work calls for it, and stays quiet when it does not.",
+  "version": "0.1.1",
+  "description": "The operating system for AI in your organization, in Claude.",
+  "icon": "./assets/icon.png",
   "author": {
     "name": "Tindre AS",
-    "url": "https://tindre.app"
+    "url": "https://www.tindre.ai/en"
   },
-  "homepage": "https://tindre.app",
+  "homepage": "https://www.tindre.ai/en",
   "keywords": [
     "standards",
     "knowledge",
-    "governance",
+    "areas",
     "tindre"
   ],
   "repository": "https://github.com/tindre-ai/claude-plugins",
