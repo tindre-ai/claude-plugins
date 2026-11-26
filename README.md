@@ -50,8 +50,8 @@ In **Cowork and Claude Code**, the plugin's hook sends each message of four word
 4,000 characters) to Tindre's API at `api.tindre.app`, signed in as you, to find the Standards and
 Library content that match it. Shorter messages and commands are not looked up. Tindre keeps the
 first 500 characters of each message it looks up in its question log, for as long as that log keeps
-questions, to improve how well your Standards cover the work. That text is never shown to anyone,
-not to administrators, colleagues or AI tools. The hook only
+questions. That text is never shown to anyone, not to administrators, colleagues or AI tools, and
+it is not yet used for anything else. The hook only
 reads; it never changes anything in Tindre. **Claude chat** (web, desktop and mobile) does not run
 hooks, so there nothing is sent unless Claude itself decides to use the Tindre connector.
 
