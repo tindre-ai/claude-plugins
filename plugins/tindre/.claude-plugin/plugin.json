@@ -1,7 +1,7 @@
 {
   "name": "tindre",
   "displayName": "Tindre",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The operating system for AI in your organization, in Claude.",
   "icon": "./assets/icon.png",
   "author": {
@@ -9,6 +9,10 @@
     "url": "https://www.tindre.ai/en"
   },
   "homepage": "https://www.tindre.ai/en",
+  "documentationUrl": "https://github.com/tindre-ai/claude-plugins#readme",
+  "supportUrl": "https://www.tindre.ai/support",
+  "privacyPolicyUrl": "https://tindre.ai/legal/privacy",
+  "termsOfServiceUrl": "https://tindre.ai/legal/terms",
   "keywords": [
     "standards",
     "knowledge",
